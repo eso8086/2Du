@@ -1,5 +1,7 @@
 # Todo Application
+
 Your productivity helper :)
+
 ![preview.png](preview.png)
 ## Running Application
 run `dev` script to run application in development mode.
