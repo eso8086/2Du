@@ -1,0 +1,35 @@
+.container{
+  display: grid;
+  grid-template-columns: min-content 1fr min-content;
+  align-items: center;
+  gap: 10px;
+  border: 2px var(--g) solid;
+  border-radius: 7px;
+  padding: 0.65em;
+  font-size: 1.15em;
+}
+
+.checkbox{
+  width: 25px;
+  aspect-ratio: 1/1;
+  accent-color: var(--g2);
+}
+
+.name{
+  font-weight: 500;
+  color: var(--g2);
+
+  &.done{
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--g3);
+  }
+}
+.btn{
+  display: grid;
+  place-content: center;
+  border: unset;
+  background: unset;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
